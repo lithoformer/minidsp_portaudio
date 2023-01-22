@@ -48,8 +48,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "portaudio.h"
-#include "pa_asio.h"
-#include "asiosdk/common/asio.h"
 #include "../pa_record/pffft.h"
 
   /* #define SAMPLE_RATE  (17932) // Test failure to open with this value. */
