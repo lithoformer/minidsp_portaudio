@@ -111,7 +111,6 @@ static int recordCallback(const void* inputBuffer, void* outputBuffer,
     paTestData* data = (paTestData*)userData;
     const SAMPLE* rptr = (const SAMPLE*)inputBuffer;
     SAMPLE* wptr = &data->recordedSamples[data->frameIndex * NUM_CHANNELS];
-    SAMPLE* fftptr = wptr;
     long framesToCalc;
     long i;
     int finished;
