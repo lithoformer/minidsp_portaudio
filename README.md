@@ -1,5 +1,5 @@
 # minidsp_portaudio
-personal recording setup for FFT analysis of MEMS microphones input
+recording setup for FFT analysis of MEMS microphones input
 
 i've modified the portaudio paex_record.c program to work with the mini-dsp UMA-8.  the UMA-8 is a multi-microphone MEMS array and just two of the microphones are taken to input into the FFT and also for recording output
 
