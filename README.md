@@ -20,4 +20,4 @@ portaudio for audio i/o:
 http://files.portaudio.com/download.html
 
 
-to run the code, build portaudio and pffft as shown on their respective repos and import them into your MSVC solution
+to run the code, build portaudio and pffft as shown on their respective repos and import the binaries into your MSVC solution
